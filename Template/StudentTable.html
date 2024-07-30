@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <table>
+        <h2>Student Table</h2>
+        <thead>
+            <tr>
+                <th class="one">Name</th>
+                <th class="two">Roll NO</th>
+                <th class="three">Gender</th>
+                <th class="four">Maths Marks</th>
+                <th class="five">Science Marks</th>
+                <th class="six">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td  class="one">Anurag</td>
+                <td class="two">1</td>
+                <td class="three">Male</td>
+                <td class="four">30</td>
+                <td class="five">50</td>
+                <td class="six"><button onclick="delFunction(this)">Delete</button></td>
+            </tr>
+            <tr >
+                <td class="one">Mrunal</td>
+                <td class="two">2</td>
+                <td class="three">Male</td>
+                <td class="four">90</td>
+                <td class="five">40</td>
+                <td class="six"><button onclick="delFunction(this)">Delete</button></td>
+        
+            </tr>
+            <tr>
+                <td class="one">Umesh</td>
+                <td class="two">3</td>
+                <td class="three">Male</td>
+                <td class="four">80</td>
+                <td class="five">70</td>
+                <td class="six"><button onclick="delFunction(this)">Delete</button></td>
+            
+            </tr>
+
+        </tbody>
+    </table>
+    <button id="addUser">Add User</button>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="../JS/script.js">
+
+</script>
+
+
+</html>
