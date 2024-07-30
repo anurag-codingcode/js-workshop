@@ -1,0 +1,33 @@
+table{
+    width: 100%;
+
+}
+table, th, td {
+    border: 1px solid black;
+  }
+td{
+    
+    text-align: center;
+}
+.table-input{
+    width: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .four{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 900px) {
+    .five{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    .three{
+        display: none;
+    }
+    
+}
