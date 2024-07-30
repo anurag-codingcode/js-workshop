@@ -30,21 +30,11 @@ function editData(e) {
 function addUser() {
     const tr = $('<tr>');
     const input = $('<input id="table-input" onkeypress="addData(event,this)"></input>');
-    const td1 = $('<td ondblclick=editData(this)>', {
-        class: 'one'
-    });
-    const td2 = $('<td ondblclick=editData(this)>', {
-        class: 'two'
-    })
-    const td3 = $('<td ondblclick=editData(this)>', {
-        class: 'three'
-    })
-    const td4 = $('<td ondblclick=editData(this)>', {
-        class: 'four'
-    })
-    const td5 = $('<td ondblclick=editData(this)>', {
-        class: 'five'
-    })
+    const td1 = $('<td ondblclick=editData(this) class="one">');
+    const td2 = $('<td ondblclick=editData(this) class="two">')
+    const td3 = $('<td ondblclick=editData(this) class="three">')
+    const td4 = $('<td ondblclick=editData(this) class="four">')
+    const td5 = $('<td ondblclick=editData(this) class="five">')
     td1.append(input.clone())
     td2.append(input.clone())
     td3.append(input.clone())
